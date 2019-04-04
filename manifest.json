@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Youtube Downloader",
+  "description": "The easiest tool for downloading youtube videos",
+  "version": "0.2",
+  "icons": {
+    "128": "images/youtube.png",
+    "48": "images/youtube.png",
+    "16": "images/youtube.png"
+  },
+  "browser_action": {
+    "default_icon": "images/youtube.png",
+    "default_popup": "popup.html",
+    "default_title": "Youtube Downloader"
+  },
+  "permissions": ["*://www.youtube.com/*", "downloads"]
+}
